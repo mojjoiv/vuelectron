@@ -35,6 +35,30 @@
       "email": "lika@test.com",
       "password": "password",
       "name": "lika"
+    },
+    {
+      "id": "9cfa",
+      "email": "true@gmail.com",
+      "password": "password",
+      "name": "true"
+    },
+    {
+      "id": "804f",
+      "email": "",
+      "password": "",
+      "name": ""
+    },
+    {
+      "id": "4603",
+      "email": "me@gmail.com",
+      "password": "password",
+      "name": "me"
+    },
+    {
+      "id": "40dd",
+      "email": "batman@test.com",
+      "password": "password",
+      "name": "batman"
     }
   ]
 }
