@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "2d4e",
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": "7708",
+      "email": "test@gmail.com",
+      "password": "password",
+      "name": "test"
+    },
+    {
+      "id": "2e39",
+      "email": "test@gmail.com",
+      "password": "password",
+      "name": "test"
+    },
+    {
+      "id": "ae0e",
+      "email": "new@gmail.com",
+      "password": "password",
+      "name": "new"
+    },
+    {
+      "id": "2d32",
+      "email": "rihana@test.com",
+      "password": "password",
+      "name": "rihana"
+    },
+    {
+      "id": "a326",
+      "email": "lika@test.com",
+      "password": "password",
+      "name": "lika"
+    }
+  ]
+}

@@ -1,20 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <SignUp/>
-  <SignIn/>
+  <div id="app">
+    <nav>
+      <router-link to="/signup">Sign Up</router-link>
+    </nav>
+    <router-view/>
+  </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-import SignUp from './components/SignUp.vue'
-import SignIn from './components/SignIn.vue'
-
 export default {
   name: 'App',
-  components: {
-    SignUp,
-    SignIn
-  }
 }
 </script>
 
@@ -26,5 +21,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 </style>
