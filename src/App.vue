@@ -1,15 +1,19 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <SignUp/>
+  <SignIn/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import SignUp from './components/SignUp.vue'
+import SignIn from './components/SignIn.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SignUp,
+    SignIn
   }
 }
 </script>
